@@ -1,0 +1,179 @@
+@media screen and (max-width: 600px) {
+     .container-fluid {
+          padding: 15px;
+     }
+}
+
+/* 2nd sec */
+@media screen and (max-width: 1700px) {
+     .left-col h1 {
+          font-size: 2.4rem;
+     }
+
+     .left-col p {
+          font-size: 1.1rem
+     }
+}
+
+@media screen and (max-width: 1050px) {
+     .left-col h1 {
+          font-size: 1.9rem;
+     }
+
+     .left-col p {
+          font-size: .9rem;
+     }
+
+     .left-col button {
+          font-size: .8rem;
+     }
+
+     .left-col {
+          gap: 15px;
+     }
+}
+
+@media screen and (max-width: 768px) {
+     .right-col img {
+          max-height: 500px;
+          width: 100%;
+          margin: auto;
+     }
+
+     .left-col {
+          gap: 1px;
+     }
+
+     /* .left-col :where(h1, p, button){
+          margin-bottom: -5px;
+     } */
+
+     #carousel-sec {
+          margin-top: 20px !important;
+     }
+}
+
+@media screen and (max-width: 850px) {
+     #carousel-sec {
+          margin-top: 10px;
+     }
+
+     #carousel-sec h2 {
+          font-size: 1.4rem;
+     }
+}
+
+/* 3rd sec */
+@media screen and (max-width: 1200px) {
+     .aboutusdesc p {
+          font-size: 1.2rem;
+     }
+}
+
+@media screen and (max-width: 950px) {
+     .aboutusdesc p {
+          font-size: 1rem;
+          margin-bottom: 10px;
+     }
+
+     .aboutusimg img {
+          max-height: 300px;
+          max-width: 300px;
+     }
+}
+
+/* 4th-sec */
+@media screen and (max-width: 660px) {
+     .tstm {
+          width: 400px;
+     }
+
+     .tstm p {
+          font-size: 1.1rem;
+     }
+}
+
+/* 5th-sec */
+@media screen and (max-width: 1600px) {
+     .subscribe h1 {
+          font-size: 3rem;
+     }
+
+     .subscribe p {
+          font-size: 1.2rem;
+     }
+}
+
+@media screen and (max-width: 1270px) {
+     .subscribe h1 {
+          font-size: 2rem;
+     }
+
+     .subscribe p {
+          font-size: 1rem;
+     }
+
+     .joinviaemail {
+          width: 90%;
+     }
+}
+
+@media screen and (max-width: 880px) {
+     .subscribe h1 {
+          font-size: 1.7rem;
+     }
+
+     .subscribe p {
+          font-size: 1rem;
+     }
+
+     .joinviaemail {
+          width: 90%;
+     }
+}
+
+@media screen and (max-width: 768px) {
+     .subscribe h1 {
+          font-size: 2.4rem;
+     }
+
+     .joinviaemail {
+          width: 100%;
+     }
+}
+
+@media screen and (max-width: 520px) {
+     .subscribe h1 {
+          font-size: 2rem;
+     }
+}
+
+/* 6th-sec */
+@media screen and (max-width: 870px) {
+     .footer h5 {
+          font-size: 1rem;
+     }
+
+     .icons i {
+          font-size: 1.5rem;
+     }
+}
+
+@media screen and (max-width: 768px) {
+     .icons i {
+          display: inline-block;
+          margin-right: 30px;
+     }
+}
+
+@media screen and (max-width: 680px) {
+     .footer h5 {
+          font-size: .7rem;
+     }
+}
+
+@media screen and (max-width: 530px) {
+     .footer h5 {
+          font-size: .4rem;
+     }
+}
